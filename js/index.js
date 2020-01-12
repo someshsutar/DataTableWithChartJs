@@ -48,12 +48,12 @@ function showChart(student) {
             scales: {
                 yAxes: [{
                     ticks: {
-                        beginAtZero: true
+                        beginAtZero: true,
+                        suggestedMax:100
                     }
                 }]
             }
         }
     });
-
     $('#studentChartModel').modal('show');
 }
